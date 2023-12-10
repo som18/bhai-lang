@@ -6,7 +6,7 @@ export const bhaiLangSyntax = languages.extend("clike", {
     {
       pattern: /(^|[^\\:])\/\/.*/,
       lookbehind: true,
-      greedy: true,
+      greedy: false,
     },
     {
       pattern: /\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/,
